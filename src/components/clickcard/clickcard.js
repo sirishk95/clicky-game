@@ -4,10 +4,10 @@ import './clickcard.css';
 const ClickCard = props => (
 	<div
 		role="img"
-		aria-label="click item"
+		aria-label="card"
 		onClick={() => props.handleClick(props.id)}
-		style={{ backgroundImage: 'url("${props.image}")' }}
-		className={'click-item${props.shake ? " shake" : ""}'}
+		style={{ backgroundImage: `url("${props.image}")` }}
+		className={`card${props.shake ? " shake" : ""}`}
 	/>
 );
 

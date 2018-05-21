@@ -1,11 +1,15 @@
 .card {
-    height: 120px;
+    height: 170px;
+    width: 170px;
     background: #6CADDC;
     cursor: pointer;
     transition: all .2s ease-in-out;
     overflow: hidden;
     padding: 10px;
     text-align: center;
+    margin: 8px 25px;
+    background-position: center;
+    background-size: cover;
   }
   
   .card:hover {
